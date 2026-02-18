@@ -1,34 +1,168 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Furqan Quraishi - CV</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Furqan Quraishi | DevOps Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 0;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            border-bottom: 2px solid #1e293b;
+            padding-bottom: 30px;
+        }
+
+        .header img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 4px solid #38bdf8;
+            object-fit: cover;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #38bdf8;
+        }
+
+        h2 {
+            color: #38bdf8;
+            margin-top: 40px;
+        }
+
+        .section {
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #334155;
+            padding: 8px 14px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 14px;
+        }
+
+        .contact {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #94a3b8;
+        }
+
+        .highlight {
+            color: #22d3ee;
+            font-weight: bold;
+        }
+
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Furqan Quraishi</h1>
-        <p>Email: furqanquraishi161@gmail.com</p>
-        <p>Phone: 9690824022</p>
 
-        <h2>Professional Summary</h2>
-        <p>Order Management Specialist with strong analytical and process optimization skills...</p>
+<div class="container">
 
-        <h2>Experience</h2>
-        <h3>BT Group – Order Management Specialist (2022–Present)</h3>
-        <ul>
-            <li>Progress jeopardy orders</li>
-            <li>Resolve billing & complaint cases</li>
-            <li>Cross-functional coordination</li>
-        </ul>
-
-        <h2>Skills</h2>
-        <ul>
-            <li>SQL</li>
-            <li>Python</li>
-            <li>Linux</li>
-            <li>Git</li>
-            <li>AWS</li>
-        </ul>
+    <div class="header">
+        <img src="profile.jpg" alt="Profile Photo">
+        <div>
+            <h1>Furqan Quraishi</h1>
+            <p class="highlight">DevOps Engineer | Automation & Process Optimization Specialist</p>
+            <div class="contact">
+                Email: furqanquraishi161@gmail.com <br>
+                Phone: 9690824022
+            </div>
+        </div>
     </div>
+
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <div class="card">
+            5 years of experience in enterprise order management operations with strong exposure to system workflows, 
+            incident resolution, SLA monitoring, and cross-functional technical coordination. 
+            Hands-on experience with Linux (Amazon Linux), Git version control, AWS EC2, and CI/CD fundamentals. 
+            Focused on automation, infrastructure reliability, and deployment optimization.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>DevOps Portfolio Project</h2>
+        <div class="card">
+            <ul>
+                <li>Designed and deployed personal CV website using Git and GitHub Pages.</li>
+                <li>Implemented branching strategy and version control best practices.</li>
+                <li>Configured CI pipeline using GitHub Actions.</li>
+                <li>Managed project lifecycle in Amazon Linux environment.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Professional Experience</h2>
+
+        <div class="card">
+            <strong>BT Group – Order Management Specialist (2022–Present)</strong>
+            <ul>
+                <li>Managed high-volume order processing workflows ensuring SLA adherence.</li>
+                <li>Performed root cause analysis for system and transaction failures.</li>
+                <li>Coordinated with backend technical teams to resolve deployment blockers.</li>
+                <li>Monitored system queues and maintained operational reliability.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <strong>Concentrix Daksh India Pvt. Ltd. – Senior Associate (2019–2022)</strong>
+            <ul>
+                <li>Handled enterprise transactional workflows within structured systems.</li>
+                <li>Resolved processing failures and ensured transaction continuity.</li>
+                <li>Maintained performance metrics and compliance tracking.</li>
+                <li>Contributed to process optimization initiatives.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <span>Linux (Amazon Linux)</span>
+            <span>Git & GitHub</span>
+            <span>AWS EC2</span>
+            <span>CI/CD (GitHub Actions)</span>
+            <span>Bash (Basic)</span>
+            <span>Python (Fundamentals)</span>
+            <span>Incident Management</span>
+            <span>Root Cause Analysis</span>
+        </div>
+    </div>
+
+</div>
+
 </body>
 </html>
+
